@@ -1,10 +1,10 @@
 ---
 layout: list
-title: Class
-slug: class
+title: Algorithm
+slug: algorithm
 menu: true
 submenu: true
-order: 4
+order: 3
 description: >
-  수업  
+  알고리즘
 ---

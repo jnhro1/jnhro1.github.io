@@ -1,8 +1,8 @@
 ---
 layout: tag-blog
-title: Seoul
-slug: seoul
-category: trip
+title: Client
+slug: client
+category: movester
 menu: false
 order: 1
 ---

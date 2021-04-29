@@ -2,7 +2,7 @@
 #  User configuration
 # -----------------------------------------------------------------------------
 
-title:               따라쟁이의 블로그
+title:               무결한 다오씨
 
 # The unique resource location of your page.
 # Set to `https://<username>.github.io` when hosting on GitHub Pages
@@ -13,17 +13,17 @@ url:                 https://jnhro1.github.io
 baseurl:             ""
 
 # A very short description of your page
-tagline:             "따라쟁이 블로그"
+tagline:             "코린이의 개발 블로그"
 
 # A short description of the page, used in the sidebar and as fallback for the meta description tag.
 # Markdown enabled, but don't use more than one paragraph (enforced by `>`)
 description:         >
-  따라쟁이의 샘플 블로그입니다.
+  Because I Am Worth It.
 
 # This should be the same author as first entry in `_data/authors.yml`
 author:
-  name:              xxxx
-  email:             xxxx@xxxx.com
+  name:              Nahyun Jo
+  email:             jnhro1@gmail.com
 
 # Fallback image and color
 image:               /assets/img/main_left.JPG

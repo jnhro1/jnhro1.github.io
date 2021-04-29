@@ -8,9 +8,8 @@ vvs:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   # 자기 소개
-  about:             |
-    간단한 자기소개
-    안녕하세요. 무결한 다오씨입니다.
+  about:             
+    안녕하세요. 무결한 다오씨의 개발 일지 블로그입니다.
 
 
   # This photo will be used in the about section
