@@ -37,7 +37,7 @@ font-weight:bold">
 
 > Mar.2017 ~ Feb.2021 백석대학교
 >
-> ICT학부 소프트웨어학 
+> ICT학부 소프트웨어학 (4.41/4.5)
 
 
 ## Awards
