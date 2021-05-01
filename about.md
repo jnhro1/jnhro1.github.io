@@ -46,6 +46,7 @@ font-weight:bold">
 
 <u><strong><a href="">국내 학술대회 우수 논문상(국제문화기술진흥원) 2020</a></strong></u>
 
+- IoT 기반 뉴트로 게임기 연구
 - AI 스피커를 활용한 오락기 게임 개발
 - Raspberry Pi, Magic Mirror, Retro Pie
 
