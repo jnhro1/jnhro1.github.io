@@ -1,9 +1,9 @@
 ---
 layout: list
-title: Movester
+title: movester
 slug: movester
 menu: true
-submenu: true
+submenu: false
 order: 2
 description: >
   뭅스터 개발 일지
