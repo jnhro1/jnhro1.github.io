@@ -1,0 +1,61 @@
+---
+layout: post
+title: "[DB] 05. mysql 날짜, 시간 데이터형"
+subtitle: "mysql 날짜,시간"
+categories: movester-server
+tags: server
+comments: true
+date: "2021-04-03"
+related_posts:
+  - category/_posts/movester/2021-04-30-DB컨벤션1.md
+  - category/_posts/movester/2021-05-01-DB컨벤션2.md
+published: true
+---
+
+movester는 aws의 rds를 사용하여 db를 만들 계획이다.
+따라서 mysql 을 사용할 예정인데 mysql에서는 날짜와 시간을 담는 데이터형이 다양하게 존재한다.
+
+## 1. DATE
+---
+- 날짜는 포함하지만 시간은 포함하지 않는다.
+- YYYY-MM-DD 형식
+- 1000-01-01 부터 9999-12-31 까지 입력 가능
+
+## 2. DATETIME
+---
+- 날짜와 시간을 모두 포함한다.
+- YYYY-MM-DD HH:MM:SS 형식
+- 1000-01-01 00:00:00 부터 9999-12-31 23:59:59 까지 입력 가능
+
+## 3. TIME
+---
+- 시간은 포함하지만 날짜는 포함하지 않는다.
+- HH:MM:SS 형
+- -838:59:59 ~ 838:59:59
+
+## 4. TIMESTAMP
+---
+- 날짜와 시간을 모두 포함한다.
+- YYYY-MM-DD HH:MM:SS 형식
+- 1970-01-01 00:00:01 ~ 2038-01-19 03:14:07 UTC 까지 입력 가능
+
+## 5. DATETIME VS TIMESTAMP
+---
+1. 타입
+- DATETIME : 문자형
+- TIMESTAMP : 숫자형
+2. 용량
+- DATETIME : 8byte
+- TIMESTAMP : 4byte
+3. 클러스팅
+- TIMESTAMP는 TIME_ZONE에 의존
+- 만약 글로벌 서비스를 한다면, 여러 지역의 DB를 클러스팅 해야하는데, DATETIME의 경우 TIME_ZONE이 반영이 되지 않는다.
+- 서울 오전 9시에 작성한 글이 미국에서도 오전 9시로 보이게 되는 현상이 발
+- 이럴경우 UTC 지원이 가능한 TIMESTAMP가 좋다.
+4. TIMESTAMP가 index 속도가 더 빠르다.
+
+
+---
+나의 경우 해외 서비스를 지원하지 않을 예정이기 때문에
+가입일, 탈퇴일, 작성일 등록시 DATETIME을 사용하고,
+시간은 중요하지 않고 날짜만 중요한, 출석포인트 적립날짜, 기록날짜는 DATE를 사용할 것이다.
