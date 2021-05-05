@@ -5,7 +5,7 @@ subtitle: "mysql enum,set"
 categories: movester-server
 tags: server
 comments: true
-date: "2021-04-04"
+date: "2021-05-05"
 related_posts:
   - category/_posts/movester/2021-04-30-DB컨벤션1.md
   - category/_posts/movester/2021-05-01-DB컨벤션2.md
