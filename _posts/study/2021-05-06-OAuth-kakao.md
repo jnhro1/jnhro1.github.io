@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[OAuth] 02. OAuth-kakao"
-subtitle: "OAuth"
+subtitle: "OAuth-kakao"
 categories: study
 tags: study
 comments: true
