@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "named exports, default exports 무슨 차이일까"
-subtitle: "inamed exports, default exports"
+subtitle: "named exports, default exports"
 categories: study
 tags: study
 comments: true
