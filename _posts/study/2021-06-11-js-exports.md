@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "named exports, default exports 무슨 차이일까"
-subtitle: "named exports, default exports"
+subtitle: "named/default exports"
 categories: study
 tags: study
 comments: true
@@ -14,8 +14,11 @@ published: true
 javascript에서 모듈을 exports (내보내기) 할 때는 2가지 방식이 있다.<br>
 오늘은 named exports 와 default exports에 대해 알아보자.<br>
 다음 두 코드의 차이점을 찾아보자.<br>
+
 ## named ? default? 이게 뭐야!
+
 ### 코드 A
+
 ```
 const join = (req, res, next) => {
     const err = validationResult(req);
@@ -43,7 +46,9 @@ module.exports = {
 };
 ```
 <br>
+
 ### 코드 B
+
 ```
 module.exports = {
     join: (req, res, next) => {
@@ -67,6 +72,7 @@ module.exports = {
     }
 };
 ```
+
 <br>
 두 코드는 같은 기능을 하는 함수인 join, login을 가지고 있다.<br>
 여기서 다른 점은 <b>어떻게 이 함수들을 exports 하는가</b>이다.<br>

@@ -25,7 +25,7 @@
   {% include page-button.html %}
     <div class="markdown-body">
 
-      <br/><br/>
+      <br/>
 {% if post.header-img %}<div class="head-image"><img src="{{ site.url }}/{% if post.header-img %}assets/{{ post.header-img }}{% endif %}"/></div>
 <br/>{% elsif tag.header-img %}
 <div class="head-image"><img src="{{ site.url }}/assets/{{ tag.header-img }}"/></div>
@@ -45,7 +45,7 @@
 -->
       <!--게시물 내용-->
       {{ post.content }}
-      <br/>
+      
       <!-- 블로그-하단-반응형 
       <br/>
       
@@ -87,6 +87,7 @@
             </span>
         </a>
     </div>
+    <br>
   </div>
   <br/>
 {% endunless %}

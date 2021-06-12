@@ -18,7 +18,7 @@ tagline:             "코린이의 개발 블로그"
 # A short description of the page, used in the sidebar and as fallback for the meta description tag.
 # Markdown enabled, but don't use more than one paragraph (enforced by `>`)
 description:         >
-  Because I Am Worth It.
+  1일 1스트레칭 MOVESTER 
 
 # This should be the same author as first entry in `_data/authors.yml`
 author:
@@ -26,7 +26,7 @@ author:
   email:             jnhro1@gmail.com
 
 # Fallback image and color
-image:               /assets/img/main_left.JPG
+image:               /assets/img/main_left.jpeg
 color:               '#4f86aa'
 
 # The font used for headings. Expects a string that is a valid CSS font-family value.
@@ -51,7 +51,7 @@ disqus: True
 disqus_shortname:    xxxx
 
 # This text will appear in the footer of every page. Markdown enabled.
-copyright:           '&copy; 2020.12. by 따라쟁이'
+copyright:           ''
 
 # Format of the permalinks
 permalink:           
