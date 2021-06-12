@@ -25,19 +25,18 @@ font-weight:bold">
 
 ---
 
-> 1997.03.19 대한민국,인천광역시,부평구 출생
+- 1997.03.19 대한민국,인천광역시,부평구 출생
 
-> 연락처: jnhro1@gmail.com
+- 연락처: jnhro1@gmail.com
 
-> Github : <a href="https://github.com/jnhro1">https://github.com/jnhro1</a>
+- Github : <a href="https://github.com/jnhro1">https://github.com/jnhro1</a>
 
 ## Education
 
 ---
 
-> Mar.2017 ~ Feb.2021 백석대학교
->
-> ICT학부 소프트웨어학 (4.41/4.5)
+- Mar.2017 ~ Feb.2021 백석대학교
+- ICT학부 소프트웨어학 (4.41/4.5)
 
 
 ## Awards
@@ -61,11 +60,11 @@ font-weight:bold">
 
 ---
 
-<u><strong><a href="">2020. 09 – 2020. 11 CS 코딩학원</a></strong></u>
+<u><strong><a href="">2020. 09 – 진행중 CS 코딩학원</a></strong></u>
 
 - 학원 강사
 
-- c, java, database, 정보처리기능사 수업 강의
+- c, java, phython, endtry, database, 정보처리기능사 수업 강의
 
 <u><strong><a href="">2019. 09 – 2020. 02 이엠시스</a></strong></u>
 
