@@ -10,7 +10,6 @@ related_posts:
 published: true
 ---
 
-<br>
 javascript에서 모듈을 exports (내보내기) 할 때는 2가지 방식이 있다.<br>
 오늘은 named exports 와 default exports에 대해 알아보자.<br>
 다음 두 코드의 차이점을 찾아보자.<br>

@@ -10,7 +10,6 @@ related_posts:
 published: true
 ---
 
-<br>
 github는 형상관리도구로서 코드 버전 관리에 매우 용이하다.<br>
 github 생태계가 점점 커지면서 github는 버전 관리 이외에 매우 유용한 기능들을 제공하는데 오늘은 대표적인 기능인 issue와 milestone에 대해 알아보자.
 <br>
