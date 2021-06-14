@@ -1,10 +1,10 @@
 ---
 layout: list
-title: etc
-slug: etc
+title: CScoding
+slug: CScoding
 menu: true
 submenu: false
 order: 6
 description: >
-  기타, 이것저것
+  CS 코딩 학원 강의 교안
 ---
