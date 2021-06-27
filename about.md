@@ -17,8 +17,6 @@ font-weight:bold">
 
 <center>MAJOR : Computer Science and Engineering</center>
 
-<center>Baekseok University</center>
-
 <center>Bupyeong-gu, Incheon, Republic of Korea</center>
 
 ## Personal Data
