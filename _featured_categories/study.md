@@ -4,7 +4,7 @@ title: study
 slug: study
 menu: true
 submenu: false
-order: 5
+order: 4
 description: >
   기타 공부
 ---
