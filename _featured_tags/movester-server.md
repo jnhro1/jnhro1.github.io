@@ -1,8 +1,8 @@
 ---
 layout: tag-blog
-title: VISION
-slug: vision
-category: class
+title: server
+slug: server
+category: movester
 menu: false
 order: 2
 ---

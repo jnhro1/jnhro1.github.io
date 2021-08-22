@@ -2,7 +2,7 @@
 layout: post
 title: "[DB] 06. mysql enum, set"
 subtitle: "mysql enum,set"
-categories: movester-server
+categories: movester
 tags: server
 comments: true
 date: "2021-05-05"
