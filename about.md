@@ -29,12 +29,16 @@ font-weight:bold">
 
 - Github : <a href="https://github.com/jnhro1">https://github.com/jnhro1</a>
 
+<br>
+
 ## Education
 
 ---
 
 <!--- Mar.2017 ~ Feb.2021 백석대학교-->
 - ICT학부 소프트웨어학 (4.41/4.5)
+
+<br>
 
 
 ## Awards
@@ -52,7 +56,7 @@ font-weight:bold">
 - AR을 활용한 초등학생 교육용 소방 대피 훈련 어플리케이션 개발
 - C++, unity
 
-
+<br>
 
 ## Work Experiences
 
@@ -64,6 +68,8 @@ font-weight:bold">
 
 - c, java, phython, endtry, database, 정보처리기능사 수업 강의
 
+<br>
+
 <u><strong><a href="">2019. 09 – 2020. 02 이엠시스</a></strong></u>
 
 - 근로장학생 백엔드 개발자
@@ -71,6 +77,8 @@ font-weight:bold">
 - 시리얼 통신 서버 소프트웨어 개발
 
 - c#, visual studio winform, tcp protocol
+
+<br>
 
 <u><strong><a href="">2018. 09 – 2019. 06 비제이월드</a></strong></u>
 
@@ -82,6 +90,8 @@ font-weight:bold">
 
 - java, spring, php, asp, cafe24
 
+<br>
+
 ## Skills and Certification
 
 ---
@@ -91,6 +101,8 @@ font-weight:bold">
 -FrameWork: Express
 
 -Certification : 정보처리기사(한국산업인력공단)
+
+<br>
 
 ## Patents
 
