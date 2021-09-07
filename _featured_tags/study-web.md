@@ -1,8 +1,8 @@
 ---
 layout: tag-blog
-title: frontend
-slug: frontend
+title: WEB
+slug: web
 category: study
 menu: false
-order: 1
+order: 3
 ---

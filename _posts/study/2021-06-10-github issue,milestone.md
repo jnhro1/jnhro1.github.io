@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "github issue, milestone 무엇일까"
+title: "[WEB] github issue, milestone 무엇일까"
 subtitle: "issue/milestone"
 categories: study
-tags: study
+tags: web
 comments: true
 date: "2021-06-10"
 related_posts:

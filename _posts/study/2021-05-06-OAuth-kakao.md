@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "[OAuth] 02. OAuth-kakao"
+title: "[WEB][OAuth] 02. OAuth-kakao"
 subtitle: "OAuth-kakao"
 categories: study
-tags: study
+tags: web
 comments: true
 date: "2021-05-06"
 related_posts:
