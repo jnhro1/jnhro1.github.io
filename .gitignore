@@ -45,3 +45,7 @@ node_modules
 .sass-cache
 .jekyll-metadata
 *.gem
+
+test.md
+2021-09-11-레이아웃.md
+2021-09-12-색상.md
