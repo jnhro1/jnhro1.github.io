@@ -89,10 +89,10 @@ published: true
 
 
 - 이동을 담당
-- trnaslate(100px, 200px)
-- trnaslate(200px) 하나만 입력하면 trnaslate(200px, 0px) 과 같다.
+- translate(100px, 200px)
+- translate(200px) 하나만 입력하면 trnaslate(200px, 0px) 과 같다.
 - `<number>, <percentage>`
-- trnaslateX()
+- translateX()
 - translateY()
 
 <br>
