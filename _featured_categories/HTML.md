@@ -1,10 +1,10 @@
 ---
 layout: list
-title: DAILY
-slug: DAILY
+title: HTML
+slug: HTML
 menu: true
 submenu: false
-order: 9
+order: 3
 description: >
-  일상 이야기
+  Today I Learned 
 ---

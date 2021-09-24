@@ -1,7 +1,7 @@
 ---
 layout: list
-title: movester
-slug: movester
+title: MOVESTER
+slug: MOVESTER
 menu: true
 submenu: true
 order: 2

@@ -2,8 +2,8 @@
 layout: post
 title: "named exports, default exports 무슨 차이일까"
 subtitle: "named/default exports"
-categories: movester
-tags: server
+categories: MOVESTER
+tags: BACKEND
 comments: true
 date: "2021-06-11"
 related_posts:
