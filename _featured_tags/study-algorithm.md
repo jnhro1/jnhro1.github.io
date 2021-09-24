@@ -1,8 +1,8 @@
 ---
 layout: tag-blog
-title: WEB
-slug: web
+title: ALGORITHM
+slug: algorithm
 category: study
 menu: false
-order: 4
+order: 3
 ---
