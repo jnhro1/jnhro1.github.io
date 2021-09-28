@@ -125,7 +125,7 @@ console.log(text)
 //helloworld
 ````
 
-- Collection 객체 자체가 Symbol.iterator 속성(property)를 가지고 ㅣㅇㅆ어야 동작 가능한 유형
+- Collection 객체 자체가 Symbol.iterator 속성(property)를 가지고 있어야 동작 가능한 유형
 - ES6에 새로 추가된 Collection 기반의 반복 구문
 
 <br>

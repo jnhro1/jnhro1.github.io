@@ -161,73 +161,30 @@ admin["func"]()
 
 ## 2. Number
 
-```
-function recurse(){
-    // function code
-    recurse()
-}
-
-recurse
-
-// stack 자료구조
-// 점진적으로 위로 쌓인다.
-```
-
-
-````
-function recursive(num) {
-    if (num == 0) return
-    console.log(num)
-    recursive(num-1)
-    // 3 2 1
-}
-
-recursive(3)
-
-function recursive(num) {
-    if (num == 0) return 0;
-    return num + recursive(num - 1)
-    // 3 + (2 + (1 + 0))
-}
-
-console.log(recursive(3))
-// 6
-
-function factorial(num) {
-    if (num == 0) return 1;
-    return num * factorial(num - 1)
-    // 3 * (2 * (1 * 1))
-}
-
-console.log(factorial(4))
-// 24
-````
-
 
 - js에서 일반적인 숫자는 64비트 형식의 IEEE-754 표준 기반 형태로 저장되는 자료형
 - 10진수 외에도 16진수, 2진수, 8진수의 다양한 진수 사용
 - 16진수 표기 : 0xFF
 - 8진수 표기 : 0o71
 - 2진수 표기 : 0b1101
-- 대표 상수 값 : [MAX|MIN]_VALUE, [MAX|MIN]_SAFE_INTEGER, [POSITIVE|NEGATIVE]_INFINITY, NaN
+- 대표 상수 값 : `[MAX|MIN]_VALUE,` `[MAX|MIN]_SAFE_INTEGER`, `[POSITIVE|NEGATIVE]_INFINITY`, `NaN`
 - 대표 메서드
-- 문자열로 변환 : Number.toString()
-- 특정 자리수까지 제한하여 숫자 표현 : Number.toFixed(), Number.toPrecision()
-- 타입 확인 : Number.isNaN(), Number.isFinite()
+- 문자열로 변환 : `Number.toString()`
+- 특정 자리수까지 제한하여 숫자 표현 : `Number.toFixed()`, `Number.toPrecision()`
+- 타입 확인 : `Number.isNaN()`, `Number.isFinite()`
 
 <br>
 
 ### 지수 표기법
 
 ```
-let a = 1
-let add = b => b = b + 1 //callee
-// b = a = 1
-// 각각 다른 메모리 영역이기 때문에 b가 업데이트 되도 a 값엔 영향을 끼치지 않는다.
-add(a) //caller 2
-console.log(add(a)) //2
-// a의 값이 변하지 않기 때문에 2번 호출되도 값이 동일하다
-console.log(a) //1
+let billion1 = 1000000000;
+let billion2 = 1e9;
+let us = 1e-6;
+
+console.log(billion1); //1000000000
+console.log(billion2); //
+console.log(us); //0.000001
 ```
 
 
@@ -263,10 +220,10 @@ console.log(Number.NEGATIVE_INFINITY) //-Infinity
 console.log(Number.NaN) //NaN
 ```
 
-- 지수로 표기되는 양수 최대/최소 값: Number.MAX_VALUE, Number.MIN_VALUE
-- 안전하게 표기되는 최대(양수)/최소(음수) 값 : Number.MAX_SAFE_INTEGER, Number.MIN_SAFE_INTEGER
-- 무한대 양수/음수 값: Number.POSITIVE_INFINITY, Number.NEGATIVE_INFINITY
-- 부동 소수점 산술에서 정의되지 않거나 표현할 수 없는 값으로 해석될 수 있는 숫자 데이터 유형: Number.NaN
+- 지수로 표기되는 양수 최대/최소 값: `Number.MAX_VALUE`, `Number.MIN_VALUE`
+- 안전하게 표기되는 최대(양수)/최소(음수) 값 : `Number.MAX_SAFE_INTEGER`, `Number.MIN_SAFE_INTEGER`
+- 무한대 양수/음수 값: `Number.POSITIVE_INFINITY`, `Number.NEGATIVE_INFINITY`
+- 부동 소수점 산술에서 정의되지 않거나 표현할 수 없는 값으로 해석될 수 있는 숫자 데이터 유형: `Number.NaN`
 
 <br>
 
@@ -280,7 +237,7 @@ console.log(typeof String(us)) //string
 console.log(typeof (us + "")) //string
 ````
 
-- Number to String: Number.toString(), String(Number), Number+"" 를 통해 변환 가능
+- Number to String: `Number.toString()`, `String(Number)`, `Number+""` 를 통해 변환 가능
 
 <br>
 
@@ -295,8 +252,8 @@ console.log((num1 - num2).toFixed(3)) //110.544
 console.log((num1 - num2).toPrecision(3)) //111 (정수가 이미 3자리 다 차지하여 소수점 미출력)
 ```
 
-- 소수의 자리 수 길이를 제한 : Number.toFixed(pos)
-- 정수와 소수의 자리 수를 합한 길이로 제한 : Number.toPrecision(pos)
+- 소수의 자리 수 길이를 제한 : `Number.toFixed(pos)`
+- 정수와 소수의 자리 수를 합한 길이로 제한 : `Number.toPrecision(pos)`
 
 <br>
 
@@ -313,8 +270,8 @@ console.log(Number.isFinite("hello")) // false
 ````
 
 
-- 부동 소수점 산술에서 정의되지 않거나 표현할 수 없는 값(NaN)인지 확인 : Number.isNan()
-- 정상적인 유한수인지 확인 : Number.isFinite()
+- 부동 소수점 산술에서 정의되지 않거나 표현할 수 없는 값(NaN)인지 확인 :` Number.isNan()`
+- 정상적인 유한수인지 확인 : `Number.isFinite()`
 
 <br>
 
@@ -327,8 +284,8 @@ console.log(parseInt("123문자")) // 123 사실상 같다!
 console.log(Number.parseFloat("123.23em")) // 123.23
 ````
 
-- 정수로 변환하는 방법(N 진수로 명시적 변환도 가능): Number.parseInt()
-- 실수로 변환하는 방법 : Number.parseFloat()
+- 정수로 변환하는 방법(N 진수로 명시적 변환도 가능): `Number.parseInt()`
+- 실수로 변환하는 방법 : `Number.parseFloat()`
 
 <br>
 <br>
@@ -339,19 +296,21 @@ console.log(Number.parseFloat("123.23em")) // 123.23
 - 텍스트 길이에 상관없이 문자열 형태로 저장되는 자료형
 - js 에서는 글자 하나만 저장할 수 있는 char 자료형이 없다.
 - js 에서 문자열은 페이지 인코딩 방식과 상관없이 항상 utf-16 형식을 따른다
-- 문자열 길이 : String.lengh
-- 문자열 접근 : String.charAt(index), String.charCodeAt(index)
-- 문자열 검색 : String.indexOf(), String.lastIndexOf(), String.includes(), String.startsWith()
-- 문자열 변환 : String.toUpperCase(), String.toLowerCase()
-- 문자열 치환 : String.replace()
-- 문자열 추출 : String.slice(), String.substring(), String.substr()
-- 문자열 분할 : String.split()
+- 문자열 길이 : `String.length`
+- 문자열 접근 : `String.charAt(index)`, `String.charCodeAt(index)`
+- 문자열 검색 : `String.indexOf()`, `String.lastIndexOf()`, `String.includes()`, `String.startsWith()`
+- 문자열 변환 : `String.toUpperCase()`, `String.toLowerCase()`
+- 문자열 치환 : `String.replace()`
+- 문자열 추출 : `String.slice()`, `String.substring()`, `String.substr()`
+- 문자열 분할 : `String.split()`
 
 <br>
 
 ### 정의 방법
 - "hello", 'hello', String()
 - 문자열과 변수 혼합 표현 방법 : 역 따옴표
+
+<br>
 
 ### 문자 표기
 
@@ -381,7 +340,7 @@ console.log(str2.length) //15
 // 개행도 포함된다
 ````
 
-- String.length
+- `String.length`
 
 <br>
 
@@ -395,7 +354,7 @@ console.log(str.charCodeAt(4)) //111 해당 문자의 아스키코드 값
 console.log(str[4]) //o
 ```
 
-- 문자열 내 개별 문자 접근 방법 : String.charAt(index), String.charCodeAt(index), String[index]
+- 문자열 내 개별 문자 접근 방법 : `String.charAt(index)`, `String.charCodeAt(index)`, `String[index]`
 
 <br>
 
@@ -419,9 +378,9 @@ console.log(str.endsWith("world")) //false
 console.log(str.endsWith("d!!")) //true
 ```
 
-- 문자열 검색(index) : String.indexOf(substr, pos), String.lastIndexOf(substr, pos)
+- 문자열 검색(index) : `String.indexOf(substr, pos)`, `String.lastIndexOf(substr, pos)`
 - pos : 어디서부터 찾을지
-- 문자열 검색(bool) : String.includes(substr, pos), String.startsWith(substr, pos), String.endsWith(substr, pos)
+- 문자열 검색(bool) : `String.includes(substr, pos)`, `String.startsWith(substr, pos)`, `String.endsWith(substr, pos)`
 
 <br>
 
@@ -434,7 +393,7 @@ console.log(str.toUpperCase()) //HELLO WORLD!!
 console.log(str.toLowerCase()) //hello world!!
 ```
 
-- 대소문자 변환 : String.toUpperCase(), String.toLowerCase()
+- 대소문자 변환 : `String.toUpperCase()`, `String.toLowerCase()`
 <br>
 <br>
 
@@ -462,7 +421,7 @@ console.log(changed_text) //HeTTo worTd!!!
 ````
 
 
-- 처음 만나는 요소 문자열 치환(치환된 문자열 반환) : String.replace(origin_str, change_str)
+- 처음 만나는 요소 문자열 치환(치환된 문자열 반환) : `String.replace(origin_str, change_str)`
 - 정규 표현식 활용 문자열 치환 : 치환 문자열에 청규 표현식 기입 > /치환문자열/g(전체):i(대소문자 구분X)
 
 <br>
@@ -488,8 +447,8 @@ console.log(text.substr(2, 6)) //lLo wo
 console.log(text.substr(-5, 3)) //ld!
 ```
 
-- 위치 기반 문자열 추출 : String.slice(start, end), String.substring(start, end)
-- 길이 기반 문자열 추출 : String.substr(start, length)
+- 위치 기반 문자열 추출 : `String.slice(start, end)`, `String.substring(start, end)`
+- 길이 기반 문자열 추출 : `String.substr(start, length)`
 
 <br>
 
@@ -515,7 +474,7 @@ let result4 = text.split("", 3)
 console.log(result4) //[ 'h', 'e', 'l' ]
 ```
 
-- 배열로 문자열 분할 : String.split(Separator, limit)
+- 배열로 문자열 분할 : `String.split(Separator, limit)`
 
 <br>
 <br>
