@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "[JS] 6. Basic Object"
-subtitle:   "객체"
+title: "[JS] 6. Basic Object"
+subtitle: "객체"
 categories: JS
 comments: true
 ---
@@ -18,7 +18,7 @@ comments: true
 
 ### 함수의 표현
 
-````
+```
 function add1(x, y) {
   return x + y;
 }
@@ -39,17 +39,15 @@ console.log(Object.getOwnPropertyDescriptors(add1))
 console.log(Object.getOwnPropertyDescriptors(add2))
 console.log(Object.getOwnPropertyDescriptors(add3)) //다른 선언식보다 짧다
 console.log(Object.getOwnPropertyDescriptors(add4)) //name[value]: 'add1'
-````
-
+```
 
 - 다양한 방법으로 함수 정의가 가능하며, 함수 표현식처럼 함수를 정의하여 변수에 저장 가능
-
 
 <br>
 
 ### 함수 저장
 
-````
+```
 let list = [
   "jnh",
   25,
@@ -77,8 +75,7 @@ list[2]() //hello
 console.log(typeof hello) //function
 console.log(typeof obj.hello) //function
 console.log(typeof list[2]) //function
-````
-
+```
 
 - 배열의 요소(element) 혹은 객체의 속성(property)에 함수를 정의하여 저장 가능
 
@@ -161,7 +158,6 @@ admin["func"]()
 
 ## 2. Number
 
-
 - js에서 일반적인 숫자는 64비트 형식의 IEEE-754 표준 기반 형태로 저장되는 자료형
 - 10진수 외에도 16진수, 2진수, 8진수의 다양한 진수 사용
 - 16진수 표기 : 0xFF
@@ -186,8 +182,6 @@ console.log(billion1); //1000000000
 console.log(billion2); //
 console.log(us); //0.000001
 ```
-
-
 
 - 아주 큰 숫자나 아주 작은 숫자를 표기하기 위해 지수 표기법(e)으로 0의 개수를 대체 표기 가능
 
@@ -229,13 +223,13 @@ console.log(Number.NaN) //NaN
 
 ### 대표 메서드 - 형 변환
 
-````
+```
 let us = 1e-6
 console.log(us.toString()) //0.000001
 console.log(typeof us.toString()) //string
 console.log(typeof String(us)) //string
 console.log(typeof (us + "")) //string
-````
+```
 
 - Number to String: `Number.toString()`, `String(Number)`, `Number+""` 를 통해 변환 가능
 
@@ -259,7 +253,7 @@ console.log((num1 - num2).toPrecision(3)) //111 (정수가 이미 3자리 다 �
 
 ### 대표 메서드 - Number 자료형 확인
 
-````
+```
 console.log(Number.isNaN(0.123)) // false
 console.log(!Number.isNaN(0.123 / "hello")) // false
 
@@ -267,8 +261,7 @@ console.log(!Number.isNaN(0.123 / "hello")) // false
 console.log(Number.isFinite(123)) // true
 console.log(Number.isFinite(Infinity)) // false
 console.log(Number.isFinite("hello")) // false
-````
-
+```
 
 - 부동 소수점 산술에서 정의되지 않거나 표현할 수 없는 값(NaN)인지 확인 :` Number.isNan()`
 - 정상적인 유한수인지 확인 : `Number.isFinite()`
@@ -277,19 +270,18 @@ console.log(Number.isFinite("hello")) // false
 
 ### 대표 메서드 - 정수와 실수 형 변환
 
-````
+```
 console.log(Number.parseInt("123.123")) // 123
 console.log(Number.parseInt("123문자")) // 123
 console.log(parseInt("123문자")) // 123 사실상 같다!
 console.log(Number.parseFloat("123.23em")) // 123.23
-````
+```
 
 - 정수로 변환하는 방법(N 진수로 명시적 변환도 가능): `Number.parseInt()`
 - 실수로 변환하는 방법 : `Number.parseFloat()`
 
 <br>
 <br>
-
 
 ## 3. String
 
@@ -307,6 +299,7 @@ console.log(Number.parseFloat("123.23em")) // 123.23
 <br>
 
 ### 정의 방법
+
 - "hello", 'hello', String()
 - 문자열과 변수 혼합 표현 방법 : 역 따옴표
 
@@ -328,7 +321,7 @@ console.log("line\u{1F60D}feed") // line😍feed
 
 ### 문자열 길이
 
-````
+```
 let str = `hello
 world
 !!!`
@@ -338,7 +331,7 @@ let str2 = "hello\nworld\t!!\\"
 console.log(str.length) //15
 console.log(str2.length) //15
 // 개행도 포함된다
-````
+```
 
 - `String.length`
 
@@ -394,14 +387,14 @@ console.log(str.toLowerCase()) //hello world!!
 ```
 
 - 대소문자 변환 : `String.toUpperCase()`, `String.toLowerCase()`
-<br>
-<br>
+  <br>
+  <br>
 
 ## 4. 문자열 변환
 
 ### 문자열 치환
 
-````
+```
 let text = "HelLo world!!!"
 let changed_text = ""
 
@@ -418,8 +411,7 @@ console.log(changed_text) //HelLo world???
 // 대소문자 구분없이 전부다 바꾸고싶다면?
 changed_text = text.replace(/l/gi, "T")
 console.log(changed_text) //HeTTo worTd!!!
-````
-
+```
 
 - 처음 만나는 요소 문자열 치환(치환된 문자열 반환) : `String.replace(origin_str, change_str)`
 - 정규 표현식 활용 문자열 치환 : 치환 문자열에 청규 표현식 기입 > /치환문자열/g(전체):i(대소문자 구분X)
@@ -435,8 +427,8 @@ console.log(text.slice(0, 5)) //HelLo
 console.log(text.slice(4)) //o world!!!
 console.log(text.slice(-4)) //d!!!
 
-console.log(text.substring(2, 6)) //lLo 
-console.log(text.slice(2, 6)) //lLo 
+console.log(text.(2, 6)) //lLo
+console.log(text.slice(2, 6)) //lLo
 // 둘이 결과 값 같다.
 
 console.log(text.substring(6, 2)) //lLo 내부적으로 알아서 바껴서 돈다.
@@ -480,6 +472,7 @@ console.log(result4) //[ 'h', 'e', 'l' ]
 <br>
 
 ## 나의 회고 🤫
+
 메서드와 함수를 단순히 비슷한 것이라고 여기고 있었는데 메서드는 객체 내에 정의된 함수에 한한다는 내용을 알게 되었다. <br>
 또한 this가 해당 객체의 메모리 주소 값을 가르키면서 해당 객체의 다른 속성에 접근할 수 있다는 내부적인 사실도 알게 되었다. <br>
 number와 string에 관련된 다양한 함수를 써보면서 다양한 내장함수들의 기능을 알아두면 좋을 것 같다!
