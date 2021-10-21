@@ -45,5 +45,3 @@ node_modules
 .sass-cache
 .jekyll-metadata
 *.gem
-
-2021-10-20-restful한 api 만들기.md
