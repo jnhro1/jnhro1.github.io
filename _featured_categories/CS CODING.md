@@ -4,7 +4,7 @@ title: CS CODING
 slug: CSCODING
 menu: true
 submenu: false
-order: 12
+order: 13
 description: >
   CS 코딩 학원 강의 교안
 ---
