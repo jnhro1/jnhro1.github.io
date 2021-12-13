@@ -4,7 +4,7 @@ title: CLEAN CODE
 slug: CLEANCODE
 menu: true
 submenu: false
-order: 11
+order: 12
 description: >
   클린 코드 리뷰
 ---

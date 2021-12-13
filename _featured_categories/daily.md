@@ -4,7 +4,7 @@ title: DAILY
 slug: DAILY
 menu: true
 submenu: false
-order: 14
+order: 15
 description: >
   일상 이야기
 ---

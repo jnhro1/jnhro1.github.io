@@ -4,7 +4,7 @@ title: JS
 slug: JS
 menu: true
 submenu: false
-order: 5
+order: 6
 description: >
   Today I Learned 
 ---
