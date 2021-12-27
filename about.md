@@ -95,24 +95,6 @@ font-weight:bold">
 
 <br>
 
-## Awards.
-
----
-
-<Strong>국내 학술대회 우수 논문상 / 2020 / 국제문화기술진흥원</Strong>
-
-- IoT 기반 뉴트로 게임기 연구
-- AI 스피커를 활용한 오락기 게임 개발
-- Raspberry Pi, Magic Mirror, Retro Pie
-
-<br>
-
-<Strong>Hackathon VR&AR 앱 기발 챌린지 대회 전국대회 장려상 수상 / 2019 / 소프트웨어교육혁신센터</Strong>
-
-- AR을 활용한 초등학생 교육용 소방 대피 훈련 어플리케이션 개발
-- C++, unity
-
-<br>
 
 ## Career.
 
@@ -153,6 +135,25 @@ font-weight:bold">
 - 충청남도 경제개발진흥원 웹 서비스 유지보수
 
 - html, css, javascript, java, spring, php, asp
+
+<br>
+
+## Awards.
+
+---
+
+<Strong>국내 학술대회 우수 논문상 / 2020 / 국제문화기술진흥원</Strong>
+
+- IoT 기반 뉴트로 게임기 연구
+- AI 스피커를 활용한 오락기 게임 개발
+- Raspberry Pi, Magic Mirror, Retro Pie
+
+<br>
+
+<Strong>Hackathon VR&AR 앱 기발 챌린지 대회 전국대회 장려상 수상 / 2019 / 소프트웨어교육혁신센터</Strong>
+
+- AR을 활용한 초등학생 교육용 소방 대피 훈련 어플리케이션 개발
+- C++, unity
 
 <br>
 
