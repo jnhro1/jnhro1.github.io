@@ -23,7 +23,7 @@ font-weight:bold">
 
 - ✉️  jnhro1@gmail.com
 
-- 🕸  <a href="https://github.com/jnhro1">https://github.com/jnhro1</a>
+- 🕸  <a href="https://github.com/jnhro1" target="_blank">https://github.com/jnhro1</a>
 
 - 📱  010-7919-9703
 
