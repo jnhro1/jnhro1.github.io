@@ -45,3 +45,5 @@ node_modules
 .sass-cache
 .jekyll-metadata
 *.gem
+
+2022-01-01-리트코드.md
