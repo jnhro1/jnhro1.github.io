@@ -25,7 +25,6 @@ font-weight:bold">
 
 - 🕸  <a href="https://github.com/jnhro1" target="_blank">https://github.com/jnhro1</a>
 
-- 📱  010-7919-9703
 
 <br>
 
