@@ -15,7 +15,10 @@ font-weight:bold">
 </span>
 </center>
 
-<center>안녕하세요! 뚜벅이 javascript 개발자 조나현입니다😃</center>
+<center>안녕하세요! 더 나은 서비스를 제공하고 싶은 javascript 개발자입니다.😃</center><br>
+<center>무결하다 : 결함이나 흠이 없다.✨<br>
+MVC 패턴 중 DAO만이 DB에 접근하여 데이터를 무결하게 관리하듯이, <br>
+저의 개발 여정도 다오처럼 무결하게 나아가고 싶다는 의미입니다.🤓</center>
 
 ## Contact.
 
@@ -32,13 +35,15 @@ font-weight:bold">
 
 ---
 
-- 현재에 안주하지 않고, 지속적인 발전을 위해 노력합니다.
+- 좋은 사용자 경험을 제공하기 위한 고민을 합니다.
 
 - 가독성 좋은 코드를 작성하기 위한 고민을 합니다.
 
-- 배운 것을 기록하는 것을 좋아합니다.
-
 - 팀원들과 함께 즐겁게 소통하며 코딩하는 것을 좋아합니다.
+
+- 현재에 안주하지 않고, 지속적인 발전을 위해 노력합니다.
+
+- 배운 것을 기록하는 것을 좋아합니다.
 
 - 달리기🏃‍♀️ 와 음주가무🍻 를 좋아합니다.
 
@@ -47,50 +52,54 @@ font-weight:bold">
 ## Skill Set.
 
 ---
+🟢 (상) 🟡 (중) 🔴 (하) <br>
 
 ### FrontEnd
 
-- Vanila JS 로 프론트엔드를 구현해본 경험이 있습니다.
-
-- React, Redux 조합을 활용해 프론트엔드를 구현해 본 경험이 있습니다.
+- Javascript 🟢
+- HTML/CSS 🟢
+- React 🟡
+- Redux 🟡
 
 
 <br>
 
 ### BackEnd
 
-- Node, Express 조합을 활용해 백엔드 서버를 구현해본 경험이 있습니다.
+- Node (Express) 🟢
+- MySQL 🟡
+- Mocah를 활용한 TDD 🟡
 
 <br>
 
 ### Infra & Devops
 
-- AWS(Amazon Web Service) 의 경험이 있습니다.
-  - AWS RDS 구축 및 데이터 제어를 할 수 있습니다.
-  - AWS EC2를 구축해 본 경험이 있습니다.
+- AWS(Amazon Web Service) 🟡
+  - AWS RDS 구축 및 데이터 제어 🟡
+  - AWS EC2 구축 🟡
 
 <br>
 
 ### API Pattern
 
-- REST API 규약에 맞게 API를 구현할 수 있습니다.
+- REST API 규약에 맞는 API 구현 🟢
 
 <br>
 
 ### Tools
 
-- Visual Studio Code 를 활용해 개발이 가능합니다.
-- MySQL Workbench 를 활용해 데이터 제어가 가능합니다.
-- Postman 을 활용해 API 테스트가 가능합니다.
-- Figma, XD 를 활용해 UI/UX 소통이 가능합니다.
+- Visual Studio Code 🟢
+- MySQL Workbench 🟡
+- Postman 을 활용한 API 테스트 🟡
+- Figma, XD 를 활용한 UI/UX 소통 🟡
 
 <br>
 
 ### ECT
 
-- Git 을 활용해 프로젝트 형상관리가 가능합니다.
-- Slack 을 활용해 커뮤니케이션이 가능합니다.
-- Notion 을 활용해 문서 관리가 가능합니다.
+- Git 을 활용한 프로젝트 형상관리 🟡
+- Slack 을 활용한 커뮤니케이션 🟢
+- Notion 을 활용한 문서 관리 🟢
 
 <br>
 
