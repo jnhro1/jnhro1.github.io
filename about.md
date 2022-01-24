@@ -68,7 +68,7 @@ MVC 패턴 중 DAO만이 DB에 접근하여 데이터를 무결하게 관리하�
 
 - Node (Express) 🟢
 - MySQL 🟡
-- Mocah를 활용한 TDD 🟡
+- Mocha를 활용한 TDD 🟡
 
 <br>
 

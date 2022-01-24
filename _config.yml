@@ -18,7 +18,6 @@ tagline:             "코린이의 개발 블로그"
 # A short description of the page, used in the sidebar and as fallback for the meta description tag.
 # Markdown enabled, but don't use more than one paragraph (enforced by `>`)
 description:         >
-  무결한 다오씨의 개발 일지 블로그입니다.
 
 # This should be the same author as first entry in `_data/authors.yml`
 author:
