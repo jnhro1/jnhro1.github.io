@@ -15,7 +15,7 @@ font-weight:bold">
 </span>
 </center>
 
-<center>안녕하세요! 더 나은 서비스를 제공하고 싶은 javascript 개발자입니다.😃</center><br>
+<center>안녕하세요! 더 나은 서비스를 제공하기 위해 노력하는 javascript 개발자입니다.😃</center><br>
 <center>무결하다 : 결함이나 흠이 없다.✨<br>
 MVC 패턴 중 DAO만이 DB에 접근하여 데이터를 무결하게 관리하듯이, <br>
 저의 개발 여정도 다오처럼 무결하게 나아가고 싶다는 의미입니다.🤓</center>
@@ -35,15 +35,17 @@ MVC 패턴 중 DAO만이 DB에 접근하여 데이터를 무결하게 관리하�
 
 ---
 
-- 좋은 사용자 경험을 제공하기 위한 고민을 합니다.
+- 소프트웨어 전공생으로서 CS 지식에 대한 이해도가 높습니다.
 
-- 가독성 좋은 코드를 작성하기 위한 고민을 합니다.
+- 1년간의 인턴 장학생을 통해 실무 개발을 경험하였습니다.
+
+- 좋은 서비스를 제공하기 위해 FE/BE 모두 관심을 가지고 공부중입니다.
+
+- 가독성 좋은 코드를 짜기 위한 고민을 하며, 리팩토링을 습관화합니다.
 
 - 팀원들과 함께 즐겁게 소통하며 코딩하는 것을 좋아합니다.
 
-- 현재에 안주하지 않고, 지속적인 발전을 위해 노력합니다.
-
-- 배운 것을 기록하는 것을 좋아합니다.
+- 일할 때는 워커홀릭, 놀 때는 유머홀릭으로 즐겁게 코딩합니다.
 
 - 달리기🏃‍♀️ 와 음주가무🍻 를 좋아합니다.
 
@@ -103,6 +105,36 @@ MVC 패턴 중 DAO만이 DB에 접근하여 데이터를 무결하게 관리하�
 
 <br>
 
+## Project.
+
+---
+
+<strong>왓챠 피디아 클론코딩 : 으랏챠 피디아 </strong>
+
+1. Skills
+- FE: flux, vanilla.js, webpack
+- BE: mvc, node.js, express
+2. Roles
+- FE: 영화 상세 화면 퍼블리싱, 로그인/회원가입/인증 구현, 사용자 평점 구현
+- BE: MVC 구조로 패턴 분리, REST API 개발,  auth 구현을 위한 쿠키
+- 협업 : git merge 담당,  API 요구사항 정리 및 구현, 개발 과정 노션 문서화
+3. [포트폴리오 둘러보기](https://na0hn.notion.site/na0hn/s-1a28ba1909fb4c52995fce15a67796c2)
+
+<br>
+
+<strong>1일 1스트레칭 추천 서비스 : 뭅스터 </strong>
+
+1. Skills
+- FE: flux, react, redux
+- BE: mvc, node.js, express, mysql, redis
+2. Roles
+- 기획: 서비스 기획 및 웹 디자인
+- FE: 개발 중
+- BE: DB 설계, REST API 구현
+- INFRA: AWS EC2/RDS 구축
+
+<br>
+
 
 ## Career.
 
@@ -111,8 +143,6 @@ MVC 패턴 중 DAO만이 DB에 접근하여 데이터를 무결하게 관리하�
 <strong>javascript 과외 강사 / 2021. 09 – 진행중 </strong>
 
 - html, css, javascript 를 활용한 웹 페이지 개발 강의
-
-- javascript 문법 강의
 
 <br>
 
@@ -128,9 +158,10 @@ MVC 패턴 중 DAO만이 DB에 접근하여 데이터를 무결하게 관리하�
 
 - 근로장학생 백엔드 개발자
 
-- 시리얼 통신 서버 소프트웨어 개발
+- tcp protocol 을 활용한 [시리얼 통신 서버 소프트웨어](https://github.com/jnhro1/WinformSerial) 개발
 
-- c#, visual studio winform, tcp protocol
+- 사용 언어 : c#
+- 개발 환경 : visual studio winform
 
 <br>
 
@@ -138,11 +169,13 @@ MVC 패턴 중 DAO만이 DB에 접근하여 데이터를 무결하게 관리하�
 
 - 근로장학생 풀스택 개발자
 
-- 로완 뮤직 엔터테인먼트 웹 서비스 개발 및 유지보수
+- [로완 뮤직 엔터테인먼트 웹 서비스](http://www.lowanmusic.co.kr) 개발 및 유지보수
 
-- 충청남도 경제개발진흥원 웹 서비스 유지보수
+- [충청남도 경제개진흥원 웹 서비스](http://www.cepa.or.kr/) 유지보수
 
-- html, css, javascript, java, spring, php, asp
+- 사용 언어 : html/css, javascript, java, php, asp
+
+- 개발 환경 : cafe24, spring, svn, trello
 
 <br>
 
@@ -152,16 +185,16 @@ MVC 패턴 중 DAO만이 DB에 접근하여 데이터를 무결하게 관리하�
 
 <Strong>국내 학술대회 우수 논문상 / 2020 / 국제문화기술진흥원</Strong>
 
-- IoT 기반 뉴트로 게임기 연구
-- AI 스피커를 활용한 오락기 게임 개발
-- Raspberry Pi, Magic Mirror, Retro Pie
+- 주제 : IoT 기반 뉴트로 게임기 연구 (AI 스피커를 활용한 오락기 게임 개발)
+- 개발 환경 : Raspberry Pi, Magic Mirror, Retro Pie
 
 <br>
 
-<Strong>Hackathon VR&AR 앱 기발 챌린지 대회 전국대회 장려상 수상 / 2019 / 소프트웨어교육혁신센터</Strong>
+<Strong>Hackathon VR&AR 앱 기발 챌린지 전국대회 장려상 / 2019 / 소프트웨어교육혁신센터</Strong>
 
-- AR을 활용한 초등학생 교육용 소방 대피 훈련 어플리케이션 개발
-- C++, unity
+- 주제 : AR을 활용한 초등학생 교육용 소방 대피 훈련 어플리케이션 개발
+- 사용 언어 : java, c++
+- 개발 환경 : Android Studio, Unity
 
 <br>
 
