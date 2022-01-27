@@ -46,6 +46,6 @@ node_modules
 .jekyll-metadata
 *.gem
 
-2022-01-20-cookie 적용하기.md
 2022-01-24-jwt 적용하기.md
 2022-01-25-jwt accessToekn, refreshToken 적용하기.md
+2022-01-26-redis 적용하기.md
