@@ -14,11 +14,11 @@ comments: true
 기록, 출석에 해당하는 api 를 개발하며, 테이블의 구조가 변경되었다.
 
 아래는 기존 테이블이다.
-![기존 테이블](/assets/img/movester/0228기존.png)<br><br>
+![기존 테이블](/assets/img/movester/유저기존.png)<br><br>
 
 그렇다면 변경된 테이블을 살펴보자.
 
-![변경 후 테이블](/assets/img/movester/0228후.png)<br>
+![변경 후 테이블](/assets/img/movester/유저변경후.png)<br>
 
 차이점이 보이는가?
 
@@ -27,7 +27,7 @@ comments: true
 사실 insert된 날짜를 아주 상세하게 담고있는 create_at이 있는데 왜 추가를 했는가?<br><br>
 
 
-![유저상세화면](/assets/img/movester/0228유저상세화면.png)<br>
+![유저상세화면](/assets/img/movester/유저상세화면.png)<br>
 
 해당 화면에서 필요한 api 사용을 원할하게 하기 위함이었다.
 
