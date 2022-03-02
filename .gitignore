@@ -45,3 +45,4 @@ node_modules
 .sass-cache
 .jekyll-metadata
 *.gem
+2022-02-28-특정 api 로그인 된 유저만 접근하도록, 미들웨어에서 처리하기.md
