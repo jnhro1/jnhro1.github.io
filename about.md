@@ -15,7 +15,7 @@ font-weight:bold">
 </span>
 </center>
 
-<center>안녕하세요! 더 나은 서비스를 제공하기 위해 노력하는 javascript 개발자입니다.😃</center><br>
+<center>안녕하세요! 더 나은 서비스를 제공하기 위해 노력하는 Node.js Back-End Developer, 조나현 입니다.😃</center><br>
 <center>무결하다 : 결함이나 흠이 없다.✨<br>
 MVC 패턴 중 DAO만이 DB에 접근하여 데이터를 무결하게 관리하듯이, <br>
 저의 개발 여정도 다오처럼 무결하게 나아가고 싶다는 의미입니다.🤓</center>
