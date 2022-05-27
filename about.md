@@ -35,18 +35,11 @@ MVC 패턴 중 DAO만이 DB에 접근하여 데이터를 무결하게 관리하�
 
 ---
 
-- 소프트웨어 전공생으로서 CS 지식에 대한 이해도가 높습니다.
-
-- 1년간의 인턴 장학생을 통해 실무 개발을 경험하였습니다.
-
-- 좋은 서비스를 제공하기 위해 FE/BE 모두 관심을 가지고 공부중입니다.
-
+- 좋은 서비스를 제공하기 위해 BE/FE 모두 관심을 가지고 공부중입니다.
 - 가독성 좋은 코드를 짜기 위한 고민을 하며, 리팩토링을 습관화합니다.
-
-- 팀원들과 함께 즐겁게 소통하며 코딩하는 것을 좋아합니다.
-
+- 다양한 사람들과 소통하며 인사이트를 넓혀나가는 것을 좋아합니다.🧐
+- 배운 것을 기억하고, 공유하기 위해 기술블로그를 운영하고 있습니다.🥰
 - 일할 때는 워커홀릭, 놀 때는 유머홀릭으로 즐겁게 코딩합니다.
-
 - 달리기🏃‍♀️ 와 음주가무🍻 를 좋아합니다.
 
 <br>
@@ -54,56 +47,81 @@ MVC 패턴 중 DAO만이 DB에 접근하여 데이터를 무결하게 관리하�
 ## Skill Set.
 
 ---
-🟢 (상) : 문법적 원리를 이해하며, 성능을 고려하여 스스로 코드를 작성할 수 있음.<br>
-🟡 (중) : 기존 코드를 이해하고, 새로운 요구사항을 반영하여 코드를 작성할 수 있음.<br>
-🔴 (하) : 클론코딩 등의 가벼운 사용 경험이 있으며, 간단한 프로그램을 작성할 수 있음. <br>
 
-### FrontEnd
-
-- Javascript 🟢
-- HTML/CSS 🟢
-- React 🟡
-- Redux 🟡
-
-
-<br>
 
 ### BackEnd
 
-- Node (Express) 🟢
-- MySQL 🟡
-- Mocha를 활용한 TDD 🟡
+- Javascript
+
+    문법적 원리를 이해하며, ES6 활용 가능
+
+- Node (Express.js)
+
+    REST API 규격에 맞는 API 개발 가능
+
+- MySQL
+
+    GroupBy, Join, SubQuery 활용 가능
+
+- Redis
+
+    set/get/del 활용하여 세션 토큰 데이터 관리 가능
+
+- Mocha 활용한 TDD
+
+    간단한 Unit, API 테스트 가능
 
 <br>
 
 ### Infra & Devops
 
-- AWS(Amazon Web Service) 🟡
-  - AWS RDS 구축 및 데이터 제어 🟡
-  - AWS EC2 구축 🟡
+- AWS(Amazon Web Service)
+    - AWS RDS 구축 및 데이터 제어
+    - AWS EC2 구축
+    - AWS S3 구축
+    - AWS Route53 호스팅
+- NGINX 활용한 리버스 프록시
+- PM2 활용한 무중단 서비스
+- Sentry 활용한 에러 모니터링
 
 <br>
 
-### API Pattern
+### Front-End
 
-- REST API 규약에 맞는 API 구현 🟢
+- HTML/CSS
+- React
+- Redux
 
 <br>
 
 ### Tools
 
-- Visual Studio Code 🟢
-- MySQL Workbench 🟡
-- Postman 을 활용한 API 테스트 🟡
-- Figma, XD 를 활용한 UI/UX 소통 🟡
+- Visual Studio Code
+- MySQL Workbench
+
+    ERD, 데이터 제어
+
+- Postman 을 활용한 API 테스트
+
+    API 테스트 및 문서화 가능
+
+- Figma, XD 를 활용한 UI/UX 소통
+
+    간단한 프로토타입 디자인 기획 및 제작 가능
 
 <br>
 
-### ECT
+### ETC
 
-- Git 을 활용한 프로젝트 형상관리 🟡
-- Slack 을 활용한 커뮤니케이션 🟢
-- Notion 을 활용한 문서 관리 🟢
+- Slack 을 활용한 커뮤니케이션 및 프로젝트 관리
+
+    멤버간 소통 및 Git, Sentry 의 Notification 역활로서 활용 가능
+
+- Notion 을 활용한 문서 관리
+- Git 을 활용한 프로젝트 형상관리
+
+    ISSUE / PR 활용, 브랜치 전략 가능
+
 
 <br>
 
@@ -111,29 +129,32 @@ MVC 패턴 중 DAO만이 DB에 접근하여 데이터를 무결하게 관리하�
 
 ---
 
+<strong>1일 1스트레칭 추천 서비스 : 뭅스터 </strong>
+
+1. Skills
+- BE: JS, Node.js, MySQL, Redis, AWS
+- FE: JS, React, Redux
+2. Roles
+- 기획: 서비스 기획 및 웹 디자인
+- BE: DB 설계, REST API 구현
+- INFRA: AWS EC2/RDS/S3 구축
+- FE: SPA, CSR 로 화면 랜더링
+3. [서비스 웹서비스 둘러보기](https://movester.kr)
+4. [어드민 웹서비스 둘러보기](https://movester-admin.shop)
+5. [포트폴리오 둘러보기](https://na0hn.notion.site/6bd70c74e0af4079b2106514de1b65dc)
+
+<br>
+
 <strong>왓챠 피디아 클론코딩 : 으랏챠 피디아 </strong>
 
 1. Skills
-- FE: flux, vanilla.js, webpack
-- BE: mvc, node.js, express
+- BE: JS, Node.js, Express
+- FE: JS, Vanilla.js, webpack
 2. Roles
 - FE: 영화 상세 화면 퍼블리싱, 로그인/회원가입/인증 구현, 사용자 평점 구현
 - BE: MVC 구조로 패턴 분리, REST API 개발,  auth 구현을 위한 쿠키
 - 협업 : git merge 담당,  API 요구사항 정리 및 구현, 개발 과정 노션 문서화
-3. [포트폴리오 둘러보기](https://na0hn.notion.site/na0hn/s-1a28ba1909fb4c52995fce15a67796c2)
-
-<br>
-
-<strong>1일 1스트레칭 추천 서비스 : 뭅스터 </strong>
-
-1. Skills
-- FE: flux, react, redux
-- BE: mvc, node.js, express, mysql, redis
-2. Roles
-- 기획: 서비스 기획 및 웹 디자인
-- FE: 개발 중
-- BE: DB 설계, REST API 구현
-- INFRA: AWS EC2/RDS 구축
+3. [포트폴리오 둘러보기](https://na0hn.notion.site/a1527949dc3b40f6a332198945a93617)
 
 <br>
 
