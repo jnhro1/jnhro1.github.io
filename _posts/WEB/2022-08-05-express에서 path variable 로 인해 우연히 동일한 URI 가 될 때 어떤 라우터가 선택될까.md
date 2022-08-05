@@ -56,7 +56,6 @@ comments: true
 
 `A 라우터` 에서 response를 하지 않고 next() 만 한다면?
 
-<br>
 
 ![Untitled](/assets/img/study/router5.png)
 
